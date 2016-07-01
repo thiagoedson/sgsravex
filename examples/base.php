@@ -1,6 +1,7 @@
 <html>
 <head>
 	<link rel="stylesheet" href="../compiled/flipclock.css">
+	<title>SGS</title>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="../compiled/flipclock.js"></script>
 	<!-- Última versão CSS compilada e minificada -->
@@ -20,7 +21,7 @@
 </head>
 <body>
 
-<h2 class="bg-success" style="text-align: center;">SGS</h2>
+<h1 style="text-align: center; font-weight: bold;">SGS</h1>
 
 <br>
 <div class="container">
@@ -85,12 +86,13 @@
 			// Imprimindo os dados:
 
 
-			$classe = $arrayData[1] == $mes ? "lawngreen" : "white";
+			$classe = $arrayData[1] == $mes ? "darkorange" : "white";
 
-			if($classe == "lawngreen") {
-				$texto = " Buon Mangiare -(47) 3368-4733";
+			if ($classe == "lawngreen") {
+				$texto = "<a href=\"http://www.guiainforme.com/buon-mangiare-itapema-sc-alimentos-congelados\" class='btn btn-default' target='_blank'> Buon Mangiare -(47) 3368-4733</a>";
+			} else {
+				$texto = "";
 			}
-			else {$texto = "";}
 
 
 			?>
@@ -102,7 +104,7 @@
 					</div>
 					<div class="well">
 						<h1><img src="img/new.png" width="200px;"></h1>
-						<?php echo $texto;?>
+						<?php echo $texto; ?>
 						<h3><?php echo $aniversrio[$i]['nome'] . " - " . $aniversrio[$i]['data']; ?></h3>
 						<div id="clock<?php echo $i; ?>" class="flip-counter clock flip-clock-wrapper" style="margin-left: 20%"></div>
 						<script type="text/javascript">  var clock;
