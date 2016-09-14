@@ -2,7 +2,93 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f02f6a30-9089-4ac3-9448-f30df62d57f6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/thiago_pereira.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGE LOG.md" afterPath="$PROJECT_DIR$/CHANGE LOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/flipclock.css" afterPath="$PROJECT_DIR$/compiled/flipclock.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/flipclock.js" afterPath="$PROJECT_DIR$/compiled/flipclock.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/flipclock.min.js" afterPath="$PROJECT_DIR$/compiled/flipclock.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/base.html" afterPath="$PROJECT_DIR$/examples/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/base.php" afterPath="$PROJECT_DIR$/examples/base.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/countdown-from-new-years-without-seconds.html" afterPath="$PROJECT_DIR$/examples/countdown-from-new-years-without-seconds.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/countdown-from-new-years.html" afterPath="$PROJECT_DIR$/examples/countdown-from-new-years.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/countdown-start-callback.html" afterPath="$PROJECT_DIR$/examples/countdown-start-callback.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/countdown-stop-callback.html" afterPath="$PROJECT_DIR$/examples/countdown-stop-callback.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/countdown-to-new-years-without-seconds.html" afterPath="$PROJECT_DIR$/examples/countdown-to-new-years-without-seconds.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/countdown-to-new-years.html" afterPath="$PROJECT_DIR$/examples/countdown-to-new-years.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/daily-counter-countdown.html" afterPath="$PROJECT_DIR$/examples/daily-counter-countdown.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/daily-counter.html" afterPath="$PROJECT_DIR$/examples/daily-counter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/hourly-counter.html" afterPath="$PROJECT_DIR$/examples/hourly-counter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/interval-callback.html" afterPath="$PROJECT_DIR$/examples/interval-callback.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/load-new-clock-face.html" afterPath="$PROJECT_DIR$/examples/load-new-clock-face.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/localization.html" afterPath="$PROJECT_DIR$/examples/localization.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/minute-counter-overflow.html" afterPath="$PROJECT_DIR$/examples/minute-counter-overflow.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/minute-counter.html" afterPath="$PROJECT_DIR$/examples/minute-counter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/multiple-instances.html" afterPath="$PROJECT_DIR$/examples/multiple-instances.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/simple-countdown-autostart.html" afterPath="$PROJECT_DIR$/examples/simple-countdown-autostart.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/simple-counter-autostart.html" afterPath="$PROJECT_DIR$/examples/simple-counter-autostart.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/simple-counter-minimum-digits.html" afterPath="$PROJECT_DIR$/examples/simple-counter-minimum-digits.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/simple-counter.html" afterPath="$PROJECT_DIR$/examples/simple-counter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/test.html" afterPath="$PROJECT_DIR$/examples/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/twelve-hour-clock-custom-time.html" afterPath="$PROJECT_DIR$/examples/twelve-hour-clock-custom-time.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/twelve-hour-clock-without-seconds.html" afterPath="$PROJECT_DIR$/examples/twelve-hour-clock-without-seconds.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/twelve-hour-clock.html" afterPath="$PROJECT_DIR$/examples/twelve-hour-clock.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/twenty-four-hour-clock-custom-time.html" afterPath="$PROJECT_DIR$/examples/twenty-four-hour-clock-custom-time.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/twenty-four-hour-clock-without-seconds.html" afterPath="$PROJECT_DIR$/examples/twenty-four-hour-clock-without-seconds.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/twenty-four-hour-clock.html" afterPath="$PROJECT_DIR$/examples/twenty-four-hour-clock.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/license.txt" afterPath="$PROJECT_DIR$/license.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/css/flipclock.css" afterPath="$PROJECT_DIR$/src/flipclock/css/flipclock.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/css/flipclock.scss" afterPath="$PROJECT_DIR$/src/flipclock/css/flipclock.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/faces/counter.js" afterPath="$PROJECT_DIR$/src/flipclock/js/faces/counter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/faces/dailycounter.js" afterPath="$PROJECT_DIR$/src/flipclock/js/faces/dailycounter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/faces/hourlycounter.js" afterPath="$PROJECT_DIR$/src/flipclock/js/faces/hourlycounter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/faces/minutecounter.js" afterPath="$PROJECT_DIR$/src/flipclock/js/faces/minutecounter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/faces/twelvehourclock.js" afterPath="$PROJECT_DIR$/src/flipclock/js/faces/twelvehourclock.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/faces/twentyfourhourclock.js" afterPath="$PROJECT_DIR$/src/flipclock/js/faces/twentyfourhourclock.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/lang/ar-ar.js" afterPath="$PROJECT_DIR$/src/flipclock/js/lang/ar-ar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/lang/cs-cz.js" afterPath="$PROJECT_DIR$/src/flipclock/js/lang/cs-cz.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/lang/cz-cs.js" afterPath="$PROJECT_DIR$/src/flipclock/js/lang/cz-cs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/lang/da-dk.js" afterPath="$PROJECT_DIR$/src/flipclock/js/lang/da-dk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/lang/de-de.js" afterPath="$PROJECT_DIR$/src/flipclock/js/lang/de-de.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/lang/en-us.js" afterPath="$PROJECT_DIR$/src/flipclock/js/lang/en-us.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/lang/es-es.js" afterPath="$PROJECT_DIR$/src/flipclock/js/lang/es-es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/lang/fa-ir.js" afterPath="$PROJECT_DIR$/src/flipclock/js/lang/fa-ir.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/lang/fi-fi.js" afterPath="$PROJECT_DIR$/src/flipclock/js/lang/fi-fi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/lang/fr-ca.js" afterPath="$PROJECT_DIR$/src/flipclock/js/lang/fr-ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/lang/hu-hu.js" afterPath="$PROJECT_DIR$/src/flipclock/js/lang/hu-hu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/lang/it-it.js" afterPath="$PROJECT_DIR$/src/flipclock/js/lang/it-it.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/lang/ja-jp" afterPath="$PROJECT_DIR$/src/flipclock/js/lang/ja-jp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/lang/ko-kr.js" afterPath="$PROJECT_DIR$/src/flipclock/js/lang/ko-kr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/lang/lv-lv.js" afterPath="$PROJECT_DIR$/src/flipclock/js/lang/lv-lv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/lang/nl-be.js" afterPath="$PROJECT_DIR$/src/flipclock/js/lang/nl-be.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/lang/no-nb.js" afterPath="$PROJECT_DIR$/src/flipclock/js/lang/no-nb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/lang/pt-br.js" afterPath="$PROJECT_DIR$/src/flipclock/js/lang/pt-br.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/lang/ro-ro.js" afterPath="$PROJECT_DIR$/src/flipclock/js/lang/ro-ro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/lang/ru-ru.js" afterPath="$PROJECT_DIR$/src/flipclock/js/lang/ru-ru.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/lang/sk-sk.js" afterPath="$PROJECT_DIR$/src/flipclock/js/lang/sk-sk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/lang/sv-se.js" afterPath="$PROJECT_DIR$/src/flipclock/js/lang/sv-se.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/lang/th-th.js" afterPath="$PROJECT_DIR$/src/flipclock/js/lang/th-th.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/lang/tr-tr" afterPath="$PROJECT_DIR$/src/flipclock/js/lang/tr-tr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/lang/zh-cn.js" afterPath="$PROJECT_DIR$/src/flipclock/js/lang/zh-cn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/lang/zh-tw.js" afterPath="$PROJECT_DIR$/src/flipclock/js/lang/zh-tw.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/libs/core.js" afterPath="$PROJECT_DIR$/src/flipclock/js/libs/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/libs/face.js" afterPath="$PROJECT_DIR$/src/flipclock/js/libs/face.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/libs/factory.js" afterPath="$PROJECT_DIR$/src/flipclock/js/libs/factory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/libs/list.js" afterPath="$PROJECT_DIR$/src/flipclock/js/libs/list.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/libs/plugins.js" afterPath="$PROJECT_DIR$/src/flipclock/js/libs/plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/libs/time.js" afterPath="$PROJECT_DIR$/src/flipclock/js/libs/time.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/libs/timer.js" afterPath="$PROJECT_DIR$/src/flipclock/js/libs/timer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipclock/js/vendor/base.js" afterPath="$PROJECT_DIR$/src/flipclock/js/vendor/base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipper.css" afterPath="$PROJECT_DIR$/src/flipper.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flipper.js" afterPath="$PROJECT_DIR$/src/flipper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/material-wfont.min.css" afterPath="$PROJECT_DIR$/src/material-wfont.min.css" />
     </list>
     <ignored path="sgs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -14,7 +100,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -23,7 +108,7 @@
     <favorites_list name="sgs" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/base.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -37,15 +122,13 @@
       <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="643">
+            <state relative-caret-position="167">
               <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#3181#3360#0#PHP" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#script#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -85,7 +168,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -103,41 +186,27 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sgs" />
+              <option name="myItemId" value="sgsravex" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sgs" />
+              <option name="myItemId" value="sgsravex" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sgs" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgs" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
+              <option name="myItemId" value="sgsravex" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -145,6 +214,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -161,7 +232,18 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -183,35 +265,75 @@
       <option name="presentableId" value="Default" />
       <updated>1467380486224</updated>
       <workItem from="1467380500264" duration="3631000" />
+      <workItem from="1473852311451" duration="152000" />
+      <workItem from="1473852534886" duration="783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3631000" />
+    <option name="totallyTimeSpent" value="4566000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2521322" sideWeight="0.49554566" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2521322" sideWeight="0.50664455" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2521322" sideWeight="0.5044543" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25237092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -231,15 +353,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="442">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
           <folding>
-            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#3181#3360#0#PHP" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#script#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#3181#3360#0#PHP" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="e#3181#3360#0#PHP" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -88,7 +88,7 @@
 
 			$classe = $arrayData[1] == $mes ? "darkorange" : "white";
 
-			if ($classe == "lawngreen") {
+			if ($classe == "darkorange") {
 				$texto = "<a href=\"http://www.guiainforme.com/buon-mangiare-itapema-sc-alimentos-congelados\" class='btn btn-default' target='_blank'> Buon Mangiare -(47) 3368-4733</a>";
 			} else {
 				$texto = "";
@@ -105,7 +105,8 @@
 					<div class="well">
 						<h1><img src="img/new.png" width="200px;"></h1>
 						<?php echo $texto; ?>
-						<h3><?php echo $aniversrio[$i]['nome'] . " - " . $aniversrio[$i]['data']; ?></h3>
+						<h3><?php echo $aniversrio[$i]['nome'] . " - " . date('d/m/Y', strtotime($aniversrio[$i]['data'])); ?></h3>
+						<br>
 						<div id="clock<?php echo $i; ?>" class="flip-counter clock flip-clock-wrapper" style="margin-left: 20%"></div>
 						<script type="text/javascript">  var clock;
 							$(document).ready(function () {
@@ -116,6 +117,9 @@
 							});  </script>
 					</div>
 				</div>
+				<iframe src="http://www.facebook.com/plugins/like.php?href="sgs.hol.es/examples/base.php"&layout=standard&show_faces=false&width=450&action=like&colorscheme=light"
+				scrolling="no" frameborder="0" allowTransparency="true"
+				style="border:none; overflow:hidden; width:450px; height:30px"></iframe>
 
 			</div>
 
