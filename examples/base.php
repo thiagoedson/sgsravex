@@ -28,26 +28,25 @@
 	<div id="example-row" class="row">
 		<?php
 
-		date_default_timezone_set('America/Los_Angeles');
+		date_default_timezone_set('America/Sao_Paulo');
 
 		$aniversrio =
 			array(
 				0  => array("data" => date("Y") . "-04-05 16:30:00", "id" => "1", "nome" => "Sara"),
 				1  => array("data" => date("Y") . "-04-18 16:30:00", "id" => "2", "nome" => "Thiago"),
-				2  => array("data" => date("Y") . "-04-30 16:30:00", "id" => "3", "nome" => "Alisson"),
-				3  => array("data" => date("Y") . "-05-12 16:30:00", "id" => "4", "nome" => "Maikon"),
-				4  => array("data" => date("Y") . "-06-10 16:30:00", "id" => "5", "nome" => "Franciela"),
-				5  => array("data" => date("Y") . "-07-26 16:30:00", "id" => "6", "nome" => "Carlos"),
-				6  => array("data" => date("Y") . "-07-29 16:30:00", "id" => "7", "nome" => "Alan"),
-				7  => array("data" => date("Y") . "-07-29 16:30:00", "id" => "8", "nome" => "Alex"),
-				8  => array("data" => date("Y") . "-07-31 16:30:00", "id" => "9", "nome" => "Leandro"),
-				9  => array("data" => date("Y") . "-08-11 16:30:00", "id" => "10", "nome" => "Sandra"),
-				10 => array("data" => date("Y") . "-08-28 16:30:00", "id" => "11", "nome" => "Cristopher"),
-				11 => array("data" => date("Y") . "-09-07 16:30:00", "id" => "12", "nome" => "Flavio"),
-				12 => array("data" => date("Y") . "-09-08 16:30:00", "id" => "13", "nome" => "Teixeira"),
-				13 => array("data" => date("Y") . "-10-01 16:30:00", "id" => "14", "nome" => "Fernando"),
-				14 => array("data" => date("Y") . "-10-24 16:30:00", "id" => "15", "nome" => "Mauro"),
-				15 => array("data" => date("Y") . "-12-28 16:30:00", "id" => "16", "nome" => "Isabela")
+				2  => array("data" => date("Y") . "-06-10 16:30:00", "id" => "3", "nome" => "Franciela"),
+				3  => array("data" => date("Y") . "-07-26 16:30:00", "id" => "4", "nome" => "Carlos"),
+				4  => array("data" => date("Y") . "-07-29 16:30:00", "id" => "5", "nome" => "Alan"),
+				5  => array("data" => date("Y") . "-07-29 16:30:00", "id" => "6", "nome" => "Alex"),
+				6  => array("data" => date("Y") . "-07-31 16:30:00", "id" => "7", "nome" => "Leandro"),
+				7  => array("data" => date("Y") . "-08-28 16:30:00", "id" => "8", "nome" => "Cristopher"),
+				8  => array("data" => date("Y") . "-09-07 16:30:00", "id" => "9", "nome" => "Flavio"),
+				9  => array("data" => date("Y") . "-09-08 16:30:00", "id" => "10", "nome" => "Teixeira"),
+				10 => array("data" => date("Y") . "-10-01 16:30:00", "id" => "11", "nome" => "Fernando"),
+				11 => array("data" => date("Y") . "-10-24 16:30:00", "id" => "12", "nome" => "Mauro"),
+				12 => array("data" => date("Y") . "-12-28 16:30:00", "id" => "13", "nome" => "Isabela"),
+				13 => array("data" => date("Y") . "-12-10 16:30:00", "id" => "14", "nome" => "Willian"),
+				14 => array("data" => date("Y") . "-05-29 16:30:00", "id" => "15", "nome" => "Alex Sander")
 
 			);
 
@@ -117,9 +116,12 @@
 							});  </script>
 					</div>
 				</div>
-				<iframe src="http://www.facebook.com/plugins/like.php?href="sgs.hol.es/examples/base.php"&layout=standard&show_faces=false&width=450&action=like&colorscheme=light"
-				scrolling="no" frameborder="0" allowTransparency="true"
-				style="border:none; overflow:hidden; width:450px; height:30px"></iframe>
+				<iframe src="http://www.facebook.com/plugins/like.php?href=" sgs.hol.es
+				/examples/base.php"&layout=standard&show_faces=false&width=450&action=like&colorscheme=light"
+				scrolling="no" frameborder="0"
+				allowTransparency="true"
+				style="border:none; overflow:hidden; width:450px;
+				height:30px"></iframe>
 
 			</div>
 
