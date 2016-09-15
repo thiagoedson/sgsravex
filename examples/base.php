@@ -1,17 +1,14 @@
 <html>
 <head>
+	<meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="../compiled/flipclock.css">
 	<title>SGS</title>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="../js/jquery.min.js"></script>
 	<script src="../compiled/flipclock.js"></script>
-	<!-- Última versão CSS compilada e minificada -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	<!-- Tema opcional -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
-	<!-- Última versão JavaScript compilada e minificada -->
-
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<script src="../src/flipper.js"></script>
 	<script src="../src/material.min.js"></script>
 	<script src="../src/ripples.min.js"></script>
@@ -33,20 +30,20 @@
 		//--Banco de dados SqLite3
 		try {
 
-			$db = new SQLite3('./bd_web.db');
+			$db = new PDO('sqlite:bd_web.sqlite');
+		} catch (Exception $e) {
+			echo "caiu aqui " . $e;
 		}
+		$result = $db->query('SELECT * FROM usuarios');
 
-		catch (Exception $e)
-		{
-			echo "caiu aqui ".$e;
+
+		foreach($result as $row)
+		   {
+			echo "<span class='card' style='max-width: 20rem; float: left;'>
+							<img class='card-img-top' src='img/new.png' alt='Salgado'>
+							<div class='card-block'><h4 class='card-title'>".$row['nome'] . "</h4> <p class='card-text'>". date("d/m/Y", strtotime($row['datanasc'])). "</p></div>
+						</span>";
 		}
-		$results = $db->query('SELECT * FROM sqlite_master');
-
-
-		while ($row = $results->fetchArray()) {
-		    var_dump($row);
-		}
-
 
 
 		echo "<hr><br>";
@@ -72,10 +69,10 @@
 
 			);
 
-		$result = count($aniversrio);
+		$result2 = count($aniversrio);
 		$i = 0;
 
-		while ($i <= ($result - 1)) {
+		while ($i <= ($result2 - 1)) {
 
 			$data_agora = strtotime($aniversrio[$i]['data']);
 
@@ -173,5 +170,8 @@
 		?>
 	</div>
 </div>
+
+<script src="../js/tether.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
