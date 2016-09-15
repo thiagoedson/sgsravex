@@ -15,10 +15,18 @@
 	<link href="../src/flipper.css">
 	<link href="../src/material-wfont.min.css">
 	<link href="../src/ripples.min.css">
+	<style type="text/css">
+		* {
+			padding: 0;
+			margin: 0;
+
+			}
+
+	</style>
 </head>
 <body>
 
-<h1 style="text-align: center; font-weight: bold;">SGS</h1>
+<h1 style="text-align: center; font-weight: bold; background-color: #1f2021;color: #ffffff;padding: 20px;" >SGS</h1>
 
 <br>
 <div class="container">
@@ -34,13 +42,27 @@
 		} catch (Exception $e) {
 			echo "caiu aqui " . $e;
 		}
-		$result = $db->query('SELECT * FROM usuarios');
+		$result = $db->query('SELECT * FROM usuarios ORDER BY date(datanasc) DESC');
 
 
 		foreach($result as $row)
 		   {
-			echo "<span class='card' style='max-width: 20rem; float: left;'>
+
+		   	$mes_d = date("m", strtotime($row['datanasc']));
+
+		   	if($mes_d == date('m')) {
+		   		$color = '#FF8000';
+				}
+				else {
+					$color = '#E6E6E6';
+				}
+
+
+
+
+			echo "<span class='card' style='width: 17rem; float: left; margin-left: 12px;border-color: $color'>
 							<img class='card-img-top' src='img/new.png' alt='Salgado'>
+					
 							<div class='card-block'><h4 class='card-title'>".$row['nome'] . "</h4> <p class='card-text'>". date("d/m/Y", strtotime($row['datanasc'])). "</p></div>
 						</span>";
 		}
@@ -49,30 +71,13 @@
 		echo "<hr><br>";
 
 
-		$aniversrio =
-			array(
-				0  => array("data" => date("Y") . "-04-05 16:30:00", "id" => "1", "nome" => "Sara"),
-				1  => array("data" => date("Y") . "-04-18 16:30:00", "id" => "2", "nome" => "Thiago"),
-				2  => array("data" => date("Y") . "-06-10 16:30:00", "id" => "3", "nome" => "Franciela"),
-				3  => array("data" => date("Y") . "-07-26 16:30:00", "id" => "4", "nome" => "Carlos"),
-				4  => array("data" => date("Y") . "-07-29 16:30:00", "id" => "5", "nome" => "Alan"),
-				5  => array("data" => date("Y") . "-07-29 16:30:00", "id" => "6", "nome" => "Alex"),
-				6  => array("data" => date("Y") . "-07-31 16:30:00", "id" => "7", "nome" => "Leandro"),
-				7  => array("data" => date("Y") . "-08-28 16:30:00", "id" => "8", "nome" => "Cristopher"),
-				8  => array("data" => date("Y") . "-09-07 16:30:00", "id" => "9", "nome" => "Flavio"),
-				9  => array("data" => date("Y") . "-09-08 16:30:00", "id" => "10", "nome" => "Teixeira"),
-				10 => array("data" => date("Y") . "-10-01 16:30:00", "id" => "11", "nome" => "Fernando"),
-				11 => array("data" => date("Y") . "-10-24 16:30:00", "id" => "12", "nome" => "Mauro"),
-				12 => array("data" => date("Y") . "-12-28 16:30:00", "id" => "13", "nome" => "Isabela"),
-				13 => array("data" => date("Y") . "-12-10 16:30:00", "id" => "14", "nome" => "Willian"),
-				14 => array("data" => date("Y") . "-05-29 16:30:00", "id" => "15", "nome" => "Alex Sander")
-
-			);
-
 		$result2 = count($aniversrio);
 		$i = 0;
 
 		while ($i <= ($result2 - 1)) {
+
+
+
 
 			$data_agora = strtotime($aniversrio[$i]['data']);
 
@@ -80,6 +85,8 @@
 
 			$dif = $data_agora - $data_agora_hoje;
 
+
+/*
 			if ($dif < 0) {
 
 
@@ -109,9 +116,9 @@
 			if ($classe == "darkorange") {
 				$texto = "<a href=\"http://www.guiainforme.com/buon-mangiare-itapema-sc-alimentos-congelados\" class='btn btn-default' target='_blank'> Buon Mangiare -(47) 3368-4733</a>";
 
-				?>
+				*/?><!--
 
-				<div class="col-xs-12 col-md-12 full-card" style="background-color: <?php echo $classe; ?>; text-align: center;">
+				<div class="col-xs-12 col-md-12 full-card" style="background-color: <?php /*echo $classe; */?>; text-align: center;">
 					<div class="flip-card" style="box-shadow: black;">
 						<div class="card label">
 
@@ -119,13 +126,13 @@
 						<div class="well">
 							<h1><img src="img/new.png" width="200px;">
 							</h1>
-							<?php echo $texto; ?>
-							<h3><?php echo $aniversrio[$i]['nome'] . " - " . date('d/m/Y', strtotime($aniversrio[$i]['data'])); ?></h3>
+							<?php /*echo $texto; */?>
+							<h3><?php /*echo $aniversrio[$i]['nome'] . " - " . date('d/m/Y', strtotime($aniversrio[$i]['data'])); */?></h3>
 							<br>
-							<div id="clock<?php echo $i; ?>" class="flip-counter clock flip-clock-wrapper" style="margin-left: 20%"></div>
+							<div id="clock<?php /*echo $i; */?>" class="flip-counter clock flip-clock-wrapper" style="margin-left: 20%"></div>
 							<script type="text/javascript">  var clock;
 								$(document).ready(function () {
-									var clock = $('#clock<?php echo $i;?>').FlipClock(<?php echo $dif;?>, {
+									var clock = $('#clock<?php /*echo $i;*/?>').FlipClock(<?php /*echo $dif;*/?>, {
 										clockFace: 'DailyCounter',
 										countdown: true
 									});
@@ -137,12 +144,12 @@
 				</div>
 
 				<?php
-				$i++;
+/*				$i++;
 			} else {
 				$texto = "";
-				?>
+				*/?>
 
-				<div class="col-xs-12 col-md-12 full-card" style="background-color: <?php echo $classe; ?>; text-align: center;">
+				<div class="col-xs-12 col-md-12 full-card" style="background-color: <?php /*echo $classe; */?>; text-align: center;">
 					<div class="flip-card" style="box-shadow: black;">
 						<div class="card label">
 
@@ -150,10 +157,10 @@
 						<div class="well">
 							<h1><img src="img/new.png" width="200px;">
 							</h1>
-							<?php echo $texto; ?>
-							<h3><?php echo $aniversrio[$i]['nome'] . " - " . date('d/m/Y', strtotime($aniversrio[$i]['data'])); ?></h3>
+							<?php /*echo $texto; */?>
+							<h3><?php /*echo $aniversrio[$i]['nome'] . " - " . date('d/m/Y', strtotime($aniversrio[$i]['data'])); */?></h3>
 							<br>
-							<div id="clock<?php echo $i; ?>" class="flip-counter clock flip-clock-wrapper" style="margin-left: 20%"></div>
+							<div id="clock<?php /*echo $i; */?>" class="flip-counter clock flip-clock-wrapper" style="margin-left: 20%"></div>
 
 						</div>
 					</div>
@@ -161,11 +168,11 @@
 
 				</div>
 
-				<?php
-				$i++;
-			}
+				--><?php
+/*				$i++;
+			}*/
 
-
+		$i++;
 		}
 		?>
 	</div>
