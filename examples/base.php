@@ -42,7 +42,7 @@
 		} catch (Exception $e) {
 			echo "caiu aqui " . $e;
 		}
-		$result = $db->query('SELECT * FROM usuarios ORDER BY date(datanasc) DESC');
+		$result = $db->query("SELECT * FROM usuarios ORDER BY date(datanasc) DESC");
 
 
 		foreach($result as $row)
