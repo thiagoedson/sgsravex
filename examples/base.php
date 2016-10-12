@@ -26,7 +26,11 @@
 </head>
 <body>
 
+<<<<<<< HEAD
 <h1 style="text-align: center; font-weight: bold; background-color: #1f2021;color: #ffffff;padding: 20px;" >SGS - <a href="http://www.guiainforme.com/buon-mangiare-itapema-sc-alimentos-congelados" target='_blank' style="color: #ffffff;"> Buon Mangiare -(47) 3368-4733</a></h1>
+=======
+<h1 style="text-align: center; font-weight: bold; background-color: #1f2021;color: #ffffff;padding: 20px;" >SGS</h1>
+>>>>>>> bf37c02dc3ce0ea063ed6b696a00ea85a7f1ba22
 
 <br>
 <div class="container">
@@ -64,7 +68,10 @@
 							<img class='card-img-top' src='img/new.png' alt='Salgado'>
 					
 							<div class='card-block'><h4 class='card-title'>".$row['nome'] . "</h4> <p class='card-text'>". date("d/m/Y", strtotime($row['datanasc'])). "</p></div>
+<<<<<<< HEAD
 							<div id='number'></div>
+=======
+>>>>>>> bf37c02dc3ce0ea063ed6b696a00ea85a7f1ba22
 						</span>";
 		}
 
