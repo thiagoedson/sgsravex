@@ -6,3 +6,10 @@ build/
 dist/
 out/
 compiled/
+.DS_Storenode_modules/
+.idea/
+compiled/
+*.db
+*.sqlite
+
+
