@@ -9,12 +9,7 @@
 	<script src="../js/jquery.min.js"></script>
 	<script src="../compiled/flipclock.js"></script>
 
-	<script src="../src/flipper.js"></script>
-	<script src="../src/material.min.js"></script>
-	<script src="../src/ripples.min.js"></script>
-	<link href="../src/flipper.css">
-	<link href="../src/material-wfont.min.css">
-	<link href="../src/ripples.min.css">
+
 	<style type="text/css">
 		* {
 			padding: 0;
