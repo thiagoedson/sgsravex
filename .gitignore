@@ -1,2 +1,8 @@
 .DS_Storenode_modules
 .idea/
+.DS_Storenode_modules/
+.idea/
+compiled/
+*.db
+*.sqlite
+
