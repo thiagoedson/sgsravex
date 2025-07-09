@@ -1,5 +1,6 @@
 # SGS
 
+
 Este repositório contém a biblioteca **FlipClock.js** e exemplos de uso para exibir contadores e relógios no navegador. Há também pequenos scripts PHP que demonstram como integrar a biblioteca com um banco SQLite.
 
 ## Objetivo
@@ -19,9 +20,22 @@ Fornecer modelos prontos de contagem regressiva e contadores progressivos que po
 1. Tenha o [Node.js](https://nodejs.org/) e o npm instalados.
 2. Dentro da pasta do projeto, execute:
 
+Este projeto apresenta um exemplo simples de cadastro de aniversariantes utilizando PHP e SQLite. A interface faz uso do plugin **FlipClock.js** para exibir contagens regressivas.
+
+## Requisitos
+
+- Node.js e npm
+- PHP 5.6 ou superior
+
+## Instalação
+
+Clone o repositório e instale as dependências do Node:
+
+
 ```bash
 npm install
 ```
+
 
 Isso instalará as dependências necessárias para executar as tarefas do `Grunt`.
 
@@ -32,10 +46,16 @@ Os exemplos em PHP requerem a extensão **PDO SQLite** habilitada. Certifique-se
 ## Como Executar a Aplicação
 
 1. Compile os recursos (JS e CSS) executando na raiz do projeto:
+=======
+## Build dos recursos
+
+Os arquivos de scripts e estilos podem ser concatenados e minificados com o **Grunt**. Para gerar o conteúdo da pasta `compiled/`, execute:
+
 
 ```bash
 npx grunt
 ```
+
 
 O comando acima gera os arquivos em `compiled/` e inicia um *watch* para recompilar sempre que houver alterações.
 2. Inicie um servidor local. É possível usar o PHP embutido:
@@ -55,4 +75,15 @@ npx grunt concat uglify
 ```
 
 ou manter o `watch` ativo usando simplesmente `npx grunt`.
+=======
+## Execução
+
+Com as dependências instaladas, rode um servidor PHP local na raiz do projeto:
+
+```bash
+php -S localhost:8000
+```
+
+Depois acesse `http://localhost:8000/index.html`. A página inicial fará o redirecionamento para `examples/base.php`, onde os aniversariantes são listados.
+
 
