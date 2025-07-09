@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-<<<<<<< HEAD
   <component name="AnalysisUIOptions">
     <option name="ANALYZE_TEST_SOURCES" value="false" />
     <option name="SCOPE_TYPE" value="8" />
@@ -9,14 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2797b436-4474-4ceb-96f1-397dd6276ec0" name="Default" comment="" />
     <ignored path="sgsravex.iws" />
-=======
-  <component name="ChangeListManager">
-    <list default="true" id="f02f6a30-9089-4ac3-9448-f30df62d57f6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/bd_web.sqlite" afterPath="$PROJECT_DIR$/examples/bd_web.sqlite" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/base.php" afterPath="$PROJECT_DIR$/examples/base.php" />
-    </list>
-    <ignored path="sgs.iws" />
->>>>>>> bf37c02dc3ce0ea063ed6b696a00ea85a7f1ba22
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +27,6 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-<<<<<<< HEAD
     <PATH>
       <PATH_ELEMENT>
         <option name="myItemId" />
@@ -80,45 +70,10 @@
             <state relative-caret-position="476">
               <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
-=======
-  </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="FavoritesManager">
-    <favorites_list name="sgs" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/base.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-              <folding>
-                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1473970608955" expanded="true" signature="1165:1179" ph="SELECT * FRO... sqlite_master" />
-                <marker date="1473970608955" expanded="true" signature="1165:1187" ph="SELECT * FRO... usuarios" />
-                <marker date="1473970608955" expanded="true" signature="1165:1216" ph="SELECT * FRO... usuarios" />
-                <marker date="1473970608955" expanded="true" signature="1459:1504" ph="..." />
-                <marker date="1473970608955" expanded="true" signature="1459:1518" ph="..." />
-                <marker date="1473970608955" expanded="true" signature="1525:1769" ph="..." />
-                <marker date="1473970608955" expanded="false" signature="2049:2212" ph="..." />
-                <marker date="1473970608955" expanded="true" signature="2841:3104" ph="..." />
-                <marker date="1473970608955" expanded="false" signature="2878:2896" ph="..." />
-                <marker date="1473970608955" expanded="true" signature="2897:3104" ph="..." />
-                <marker date="1473970608955" expanded="true" signature="2928:2942" ph="..." />
-                <marker date="1473970608955" expanded="true" signature="2967:3104" ph="..." />
-                <marker date="1473970608955" expanded="true" signature="2979:3030" ph="..." />
-                <marker date="1473970608955" expanded="false" signature="3293:3309" ph="..." />
-                <marker date="1473970608955" expanded="true" signature="3407:3432" ph="{...}" />
-                <marker date="1473970608955" expanded="false" signature="3854:3872" ph="..." />
-                <marker date="1473970608955" expanded="false" signature="4269:4285" ph="..." />
-              </folding>
->>>>>>> bf37c02dc3ce0ea063ed6b696a00ea85a7f1ba22
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
       <file leaf-file-name="persistente.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ws/persistente.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -126,35 +81,19 @@
               <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
               <folding>
                 <marker date="1476284879698" expanded="true" signature="280:315" ph="SELECT nome usuarios" />
-=======
-      <file leaf-file-name="bootstrap.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/bootstrap.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-306">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
->>>>>>> bf37c02dc3ce0ea063ed6b696a00ea85a7f1ba22
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
       <file leaf-file-name="usuarios" pinned="false" current-in-tab="false">
         <entry file="dbDummy://dbtable:/c75e04e6/338d3b53-9590-4f17-94f2-d3443ddca4be/usuarios">
           <provider editor-type-id="text-editor">
-=======
-      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
-          <provider selected="true" editor-type-id="text-editor">
->>>>>>> bf37c02dc3ce0ea063ed6b696a00ea85a7f1ba22
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
-<<<<<<< HEAD
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -168,33 +107,12 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-=======
-        </entry>
-      </file>
-      <file leaf-file-name="teste_pdo.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/teste_pdo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="4" selection-start-line="25" selection-start-column="3" selection-end-line="26" selection-end-column="4" />
-              <folding>
-                <element signature="e#6#96#0#PHP" expanded="true" />
-                <marker date="1473966251956" expanded="true" signature="210:288" ph="CREATE TABLE... Dogs" />
-                <marker date="1473966251956" expanded="true" signature="332:398" ph="INSERT INTO Dogs... " />
-                <marker date="1473966251956" expanded="true" signature="417:483" ph="INSERT INTO Dogs... " />
-                <marker date="1473966251956" expanded="true" signature="504:576" ph="INSERT INTO Dogs... " />
-                <marker date="1473966251956" expanded="true" signature="759:777" ph="SELECT * FRO... Dogs" />
-              </folding>
->>>>>>> bf37c02dc3ce0ea063ed6b696a00ea85a7f1ba22
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="usuarios" pinned="false" current-in-tab="false">
-<<<<<<< HEAD
         <entry file="dbDummy://dbtable:/c75e04e6/906079d6-7f1d-4740-b2b3-69c4c91eaed0/usuarios">
-=======
-        <entry file="dbDummy://dbtable:/e8cf9c22/33dec8bf-ce04-4917-ba77-c3a8a68cd1a4/usuarios">
->>>>>>> bf37c02dc3ce0ea063ed6b696a00ea85a7f1ba22
           <provider editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -210,7 +128,6 @@
       </file>
     </leaf>
   </component>
-<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -220,22 +137,6 @@
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-=======
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/examples/img/teste_pdo.php" />
-        <option value="$PROJECT_DIR$/examples/base.php" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER">
-    <gruntfile path="$PROJECT_DIR$/Gruntfile.js" />
-  </component>
->>>>>>> bf37c02dc3ce0ea063ed6b696a00ea85a7f1ba22
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -243,17 +144,10 @@
   </component>
   <component name="PhpServers">
     <servers>
-<<<<<<< HEAD
       <server host="sgs.localhost" id="c7e991e7-b23c-423f-90c7-e5b3dc5f0623" name="sgs.localhost" />
     </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-=======
-      <server host="sga.localhost" id="b6c87eab-8a82-4f7c-9ab6-fb1031a24122" name="sga.localhost" />
-    </servers>
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7.0.9" />
->>>>>>> bf37c02dc3ce0ea063ed6b696a00ea85a7f1ba22
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -267,11 +161,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-<<<<<<< HEAD
     <ConfirmationsSetting value="0" id="Add" />
-=======
-    <ConfirmationsSetting value="2" id="Add" />
->>>>>>> bf37c02dc3ce0ea063ed6b696a00ea85a7f1ba22
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -292,7 +182,6 @@
       <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
-<<<<<<< HEAD
         <subPane>
           <PATH>
             <PATH_ELEMENT>
@@ -339,15 +228,11 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-=======
-        <subPane />
->>>>>>> bf37c02dc3ce0ea063ed6b696a00ea85a7f1ba22
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-<<<<<<< HEAD
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager">
@@ -386,27 +271,6 @@
       <option name="moduleNames">
         <set />
       </option>
-=======
-    <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="js.buildTools.grunt.grunt-cli.package" value="" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Projetos\sgsravex\examples" />
-    </key>
-  </component>
-  <component name="RunManager" selected="PHP Script.base.php">
-    <configuration default="false" name="base.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/examples/base.php">
->>>>>>> bf37c02dc3ce0ea063ed6b696a00ea85a7f1ba22
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -426,7 +290,6 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-<<<<<<< HEAD
     <configuration default="true" type="RebarEunitRunConfigurationType" factoryName="Erlang Rebar Eunit" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="command" value="eunit" />
       <option name="skipDependencies" value="true" />
@@ -434,20 +297,6 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-=======
-    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
->>>>>>> bf37c02dc3ce0ea063ed6b696a00ea85a7f1ba22
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -470,49 +319,22 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-<<<<<<< HEAD
-=======
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="PHP Script.base.php" />
-    </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="PHP Script.base.php" />
-      </list>
-    </recent_temporary>
->>>>>>> bf37c02dc3ce0ea063ed6b696a00ea85a7f1ba22
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-<<<<<<< HEAD
       <changelist id="2797b436-4474-4ceb-96f1-397dd6276ec0" name="Default" comment="" />
       <created>1476280760029</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1476280760029</updated>
       <workItem from="1476280761569" duration="4226000" />
-=======
-      <changelist id="f02f6a30-9089-4ac3-9448-f30df62d57f6" name="Default" comment="" />
-      <created>1467380486224</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1467380486224</updated>
-      <workItem from="1467380500264" duration="3631000" />
-      <workItem from="1473852311451" duration="152000" />
-      <workItem from="1473852534886" duration="2458000" />
-      <workItem from="1473855711465" duration="610000" />
-      <workItem from="1473958895834" duration="826000" />
-      <workItem from="1473961531803" duration="3178000" />
-      <workItem from="1473966176159" duration="4795000" />
->>>>>>> bf37c02dc3ce0ea063ed6b696a00ea85a7f1ba22
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
     <option name="totallyTimeSpent" value="4226000" />
   </component>
   <component name="ToolWindowManager">
@@ -538,68 +360,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-=======
-    <option name="totallyTimeSpent" value="15650000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
-    <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.4978678" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17430703" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26332623" sideWeight="0.49554566" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2521322" sideWeight="0.50664455" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1881663" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2521322" sideWeight="0.5044543" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28730512" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33742005" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26332623" sideWeight="0.49554566" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2521322" sideWeight="0.50664455" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1881663" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2521322" sideWeight="0.5044543" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28730512" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
->>>>>>> bf37c02dc3ce0ea063ed6b696a00ea85a7f1ba22
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -614,16 +374,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-<<<<<<< HEAD
       <option name="time" value="2" />
-=======
-      <option name="time" value="13" />
->>>>>>> bf37c02dc3ce0ea063ed6b696a00ea85a7f1ba22
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -644,146 +399,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-=======
-    <entry file="file://$PROJECT_DIR$/examples/base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1473970608955" expanded="true" signature="1165:1179" ph="SELECT * FRO... sqlite_master" />
-            <marker date="1473970608955" expanded="true" signature="1165:1187" ph="SELECT * FRO... usuarios" />
-            <marker date="1473970608955" expanded="true" signature="1165:1216" ph="SELECT * FRO... usuarios" />
-            <marker date="1473970608955" expanded="true" signature="1459:1504" ph="..." />
-            <marker date="1473970608955" expanded="true" signature="1459:1518" ph="..." />
-            <marker date="1473970608955" expanded="true" signature="1525:1769" ph="..." />
-            <marker date="1473970608955" expanded="false" signature="2049:2212" ph="..." />
-            <marker date="1473970608955" expanded="true" signature="2841:3104" ph="..." />
-            <marker date="1473970608955" expanded="false" signature="2878:2896" ph="..." />
-            <marker date="1473970608955" expanded="true" signature="2897:3104" ph="..." />
-            <marker date="1473970608955" expanded="true" signature="2928:2942" ph="..." />
-            <marker date="1473970608955" expanded="true" signature="2967:3104" ph="..." />
-            <marker date="1473970608955" expanded="true" signature="2979:3030" ph="..." />
-            <marker date="1473970608955" expanded="false" signature="3293:3309" ph="..." />
-            <marker date="1473970608955" expanded="true" signature="3407:3432" ph="{...}" />
-            <marker date="1473970608955" expanded="false" signature="3854:3872" ph="..." />
-            <marker date="1473970608955" expanded="false" signature="4269:4285" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e8cf9c22/33dec8bf-ce04-4917-ba77-c3a8a68cd1a4/usuarios">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1473970608955" expanded="true" signature="1165:1179" ph="SELECT * FRO... sqlite_master" />
-            <marker date="1473970608955" expanded="true" signature="1165:1187" ph="SELECT * FRO... usuarios" />
-            <marker date="1473970608955" expanded="true" signature="1165:1216" ph="SELECT * FRO... usuarios" />
-            <marker date="1473970608955" expanded="true" signature="1459:1504" ph="..." />
-            <marker date="1473970608955" expanded="true" signature="1459:1518" ph="..." />
-            <marker date="1473970608955" expanded="true" signature="1525:1769" ph="..." />
-            <marker date="1473970608955" expanded="false" signature="2049:2212" ph="..." />
-            <marker date="1473970608955" expanded="true" signature="2841:3104" ph="..." />
-            <marker date="1473970608955" expanded="false" signature="2878:2896" ph="..." />
-            <marker date="1473970608955" expanded="true" signature="2897:3104" ph="..." />
-            <marker date="1473970608955" expanded="true" signature="2928:2942" ph="..." />
-            <marker date="1473970608955" expanded="true" signature="2967:3104" ph="..." />
-            <marker date="1473970608955" expanded="true" signature="2979:3030" ph="..." />
-            <marker date="1473970608955" expanded="false" signature="3293:3309" ph="..." />
-            <marker date="1473970608955" expanded="true" signature="3407:3432" ph="{...}" />
-            <marker date="1473970608955" expanded="false" signature="3854:3872" ph="..." />
-            <marker date="1473970608955" expanded="false" signature="4269:4285" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/base.php" />
-    <entry file="file://$PROJECT_DIR$/examples/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/base.php" />
-    <entry file="file://$PROJECT_DIR$/examples/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/sqlite3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="277" column="18" selection-start-line="277" selection-start-column="18" selection-end-line="277" selection-end-column="18" />
->>>>>>> bf37c02dc3ce0ea063ed6b696a00ea85a7f1ba22
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="dbDummy://dbtable:/c75e04e6/906079d6-7f1d-4740-b2b3-69c4c91eaed0/usuarios">
-=======
-    <entry file="dbDummy://dbtable:/e8cf9c22/33dec8bf-ce04-4917-ba77-c3a8a68cd1a4/usuarios">
->>>>>>> bf37c02dc3ce0ea063ed6b696a00ea85a7f1ba22
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -796,19 +416,13 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="dbDummy://dbtable:/c75e04e6/338d3b53-9590-4f17-94f2-d3443ddca4be/usuarios">
       <provider editor-type-id="text-editor">
-=======
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/33dec8bf-ce04-4917-ba77-c3a8a68cd1a4/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
->>>>>>> bf37c02dc3ce0ea063ed6b696a00ea85a7f1ba22
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-<<<<<<< HEAD
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -821,89 +435,16 @@
           <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding>
             <marker date="1476284879698" expanded="true" signature="280:315" ph="SELECT nome usuarios" />
-=======
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SGA/Source/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6511">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/teste_pdo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="4" selection-start-line="25" selection-start-column="3" selection-end-line="26" selection-end-column="4" />
-          <folding>
-            <element signature="e#6#96#0#PHP" expanded="true" />
-            <marker date="1473966251956" expanded="true" signature="210:288" ph="CREATE TABLE... Dogs" />
-            <marker date="1473966251956" expanded="true" signature="332:398" ph="INSERT INTO Dogs... " />
-            <marker date="1473966251956" expanded="true" signature="417:483" ph="INSERT INTO Dogs... " />
-            <marker date="1473966251956" expanded="true" signature="504:576" ph="INSERT INTO Dogs... " />
-            <marker date="1473966251956" expanded="true" signature="759:777" ph="SELECT * FRO... Dogs" />
->>>>>>> bf37c02dc3ce0ea063ed6b696a00ea85a7f1ba22
           </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/ws/servico.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-=======
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
->>>>>>> bf37c02dc3ce0ea063ed6b696a00ea85a7f1ba22
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-=======
-    <entry file="file://$PROJECT_DIR$/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1473970608955" expanded="true" signature="1165:1179" ph="SELECT * FRO... sqlite_master" />
-            <marker date="1473970608955" expanded="true" signature="1165:1187" ph="SELECT * FRO... usuarios" />
-            <marker date="1473970608955" expanded="true" signature="1165:1216" ph="SELECT * FRO... usuarios" />
-            <marker date="1473970608955" expanded="true" signature="1459:1504" ph="..." />
-            <marker date="1473970608955" expanded="true" signature="1459:1518" ph="..." />
-            <marker date="1473970608955" expanded="true" signature="1525:1769" ph="..." />
-            <marker date="1473970608955" expanded="false" signature="2049:2212" ph="..." />
-            <marker date="1473970608955" expanded="true" signature="2841:3104" ph="..." />
-            <marker date="1473970608955" expanded="false" signature="2878:2896" ph="..." />
-            <marker date="1473970608955" expanded="true" signature="2897:3104" ph="..." />
-            <marker date="1473970608955" expanded="true" signature="2928:2942" ph="..." />
-            <marker date="1473970608955" expanded="true" signature="2967:3104" ph="..." />
-            <marker date="1473970608955" expanded="true" signature="2979:3030" ph="..." />
-            <marker date="1473970608955" expanded="false" signature="3293:3309" ph="..." />
-            <marker date="1473970608955" expanded="true" signature="3407:3432" ph="{...}" />
-            <marker date="1473970608955" expanded="false" signature="3854:3872" ph="..." />
-            <marker date="1473970608955" expanded="false" signature="4269:4285" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="webServersAuthStorage">
-    <data>AAAAsJsA3Tyh+wDtu0lZJobj3wO82usCwacOr2b+Xhks92GApRZvAvh0DEuPnno9uwVNHOOqY5Bamh6mZDoTpbQKHP/lxv724vaIVnCCW20cDtHEPvAWnA9GfVjRN+hfw8TwfhPY1kfwQlPKkQT5A675Zf4BGXc4Skc/tAaPG0/INHQ3gtSXrV/Pq9JZdUlWdP8JhtCswXal5CkwYolomLqtlqdRv4qEaZj0hWc3hxB4Yz0FmQl4XIdOVYiajwwU8lhpdQ==</data>
->>>>>>> bf37c02dc3ce0ea063ed6b696a00ea85a7f1ba22
-  </component>
-</project>
+  </component></project>
