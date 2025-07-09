@@ -1,2 +1,5 @@
-.DS_Store
-node_modules
+.DS_Storenode_modules/
+.idea/
+compiled/
+*.db
+*.sqlite
