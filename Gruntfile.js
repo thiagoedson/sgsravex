@@ -3,32 +3,23 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-    concat: {
-      css: {
-        src: [
-          'src/flipclock/css/flipclock.css'
-        ],
-        dest: 'compiled/flipclock.css',
+      concat: {
+        css: {
+          src: ['css/*.css'],
+          dest: 'compiled/app.css',
+        },
+        js: {
+          src: ['js/*.js'],
+          dest: 'compiled/app.js',
+        }
       },
-      js: {
-        src: [     
-          'src/flipclock/js/vendor/*.js',
-          'src/flipclock/js/libs/core.js',
-          'src/flipclock/js/libs/*.js',
-          'src/flipclock/js/faces/twentyfourhourclock.js',
-          'src/flipclock/js/faces/*.js',
-          'src/flipclock/js/lang/*.js',
-        ],
-        dest: 'compiled/flipclock.js',
-      }
-    },
     uglify: {
       options: {
         banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
       },
       dist: {
         files: {
-          'compiled/flipclock.min.js': ['<%= concat.js.dest %>']
+          'compiled/app.min.js': ['<%= concat.js.dest %>']
         }
       }
     },
@@ -52,5 +43,4 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Default task(s).
-  grunt.registerTask('default', ['concat', 'uglify', 'watch']);
-};
+  grunt.registerTask('default', ['concat', 'uglify', 'watch']);};
