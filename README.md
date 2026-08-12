@@ -1,7 +1,28 @@
 # SGS
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](license.txt)
+[![Node.js](https://img.shields.io/badge/node-%3E%3D18-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![PHP](https://img.shields.io/badge/php-%3E%3D5.6-777BB4?logo=php&logoColor=white)](https://www.php.net/)
+[![Grunt](https://img.shields.io/badge/build-grunt-fbaf4a?logo=grunt&logoColor=white)](https://gruntjs.com/)
+[![jQuery](https://img.shields.io/badge/jQuery-%3E%3D1.7-0769AD?logo=jquery&logoColor=white)](https://jquery.com/)
+[![Docker](https://img.shields.io/badge/docker-ready-2496ED?logo=docker&logoColor=white)](Dockerfile)
+[![npm audit](https://img.shields.io/badge/npm%20audit-0%20vulnerabilities-brightgreen?logo=npm)](package.json)
 
-Este repositório contém a biblioteca **FlipClock.js** e exemplos de uso para exibir contadores e relógios no navegador. Há também pequenos scripts PHP que demonstram como integrar a biblioteca com um banco SQLite.
+Este repositório contém a biblioteca **FlipClock.js** e exemplos de uso para exibir contadores e relógios no navegador, além de pequenos scripts PHP que demonstram como integrar a biblioteca com um banco SQLite para listar aniversariantes.
+
+## Índice
+
+- [Objetivo](#objetivo)
+- [Funcionalidades Principais](#funcionalidades-principais)
+- [Requisitos](#requisitos)
+- [Instalação](#instalação)
+  - [Dependências Node/npm](#dependências-nodenpm)
+  - [Configuração do PHP](#configuração-do-php)
+- [Como Executar a Aplicação](#como-executar-a-aplicação)
+- [Usando o Grunt](#usando-o-grunt)
+- [Executando com Docker](#executando-com-docker)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Licença](#licença)
 
 ## Objetivo
 
@@ -14,28 +35,20 @@ Fornecer modelos prontos de contagem regressiva e contadores progressivos que po
 - Exemplos de uso da biblioteca com jQuery
 - Scripts PHP (com PDO/SQLite) para servir dados a partir de `bd_web.sqlite`
 
+## Requisitos
+
+- [Node.js](https://nodejs.org/) e npm (para compilar os recursos com Grunt)
+- PHP 5.6 ou superior, com a extensão **PDO SQLite** habilitada
+
 ## Instalação
 
 ### Dependências Node/npm
-1. Tenha o [Node.js](https://nodejs.org/) e o npm instalados.
-2. Dentro da pasta do projeto, execute:
 
-Este projeto apresenta um exemplo simples de cadastro de aniversariantes utilizando PHP e SQLite. A interface faz uso do plugin **FlipClock.js** para exibir contagens regressivas.
-
-## Requisitos
-
-- Node.js e npm
-- PHP 5.6 ou superior
-
-## Instalação
-
-Clone o repositório e instale as dependências do Node:
-
+Clone o repositório e instale as dependências:
 
 ```bash
 npm install
 ```
-
 
 Isso instalará as dependências necessárias para executar as tarefas do `Grunt`.
 
@@ -46,25 +59,18 @@ Os exemplos em PHP requerem a extensão **PDO SQLite** habilitada. Certifique-se
 ## Como Executar a Aplicação
 
 1. Compile os recursos (JS e CSS) executando na raiz do projeto:
-=======
-## Build dos recursos
 
-Os arquivos de scripts e estilos podem ser concatenados e minificados com o **Grunt**. Para gerar o conteúdo da pasta `compiled/`, execute:
+   ```bash
+   npx grunt concat uglify
+   ```
 
-
-```bash
-npx grunt
-```
-
-
-O comando acima gera os arquivos em `compiled/` e inicia um *watch* para recompilar sempre que houver alterações.
 2. Inicie um servidor local. É possível usar o PHP embutido:
 
-```bash
-php -S localhost:8000
-```
+   ```bash
+   php -S localhost:8000
+   ```
 
-3. Acesse `http://localhost:8000/examples/base.php` ou qualquer outro arquivo da pasta `examples/` para ver a biblioteca em funcionamento.
+3. Acesse `http://localhost:8000/index.html` ou `http://localhost:8000/examples/base.php`. A página inicial redireciona para `examples/base.php`, onde os aniversariantes são listados.
 
 ## Usando o Grunt
 
@@ -74,16 +80,35 @@ O arquivo `Gruntfile.js` define tarefas para concatenar e minificar o código da
 npx grunt concat uglify
 ```
 
-ou manter o `watch` ativo usando simplesmente `npx grunt`.
-=======
-## Execução
-
-Com as dependências instaladas, rode um servidor PHP local na raiz do projeto:
+Ou manter o `watch` ativo, recompilando automaticamente a cada alteração, com:
 
 ```bash
-php -S localhost:8000
+npx grunt
 ```
 
-Depois acesse `http://localhost:8000/index.html`. A página inicial fará o redirecionamento para `examples/base.php`, onde os aniversariantes são listados.
+## Executando com Docker
 
+O projeto inclui um `Dockerfile` que compila os recursos com Node e serve a aplicação com PHP + Apache:
 
+```bash
+docker build -t sgsravex .
+docker run -p 8080:80 sgsravex
+```
+
+Depois acesse `http://localhost:8080`.
+
+## Estrutura do Projeto
+
+```
+├── src/            # Código-fonte da biblioteca FlipClock.js
+├── compiled/        # Arquivos JS/CSS gerados pelo Grunt
+├── examples/         # Exemplos de uso (HTML/PHP)
+├── js, css/          # Assets estáticos
+├── Gruntfile.js       # Tarefas de build (concat/uglify/watch)
+├── Dockerfile          # Build multi-stage (Node + PHP/Apache)
+└── bd_web.sqlite         # Banco SQLite de exemplo
+```
+
+## Licença
+
+Este projeto é distribuído sob a licença [MIT](license.txt).
